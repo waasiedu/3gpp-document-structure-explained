@@ -4,7 +4,7 @@ This repository explains how to navigate and interpret **3GPP specifications**, 
 
 ---
 
-## 📘 What is 3GPP?
+##  What is 3GPP?
 
 The **3rd Generation Partnership Project (3GPP)** develops global standards for cellular technologies including 4G LTE and 5G NR. These standards are published in two forms:
 
@@ -18,7 +18,7 @@ The **3rd Generation Partnership Project (3GPP)** develops global standards for 
 
 ---
 
-## 🔢 3GPP Numbering System
+##  3GPP Numbering System
 
 Each document is numbered `XX.YYY`:
 - `XX` = Series (e.g., 38 for 5G NR, 36 for LTE)
@@ -28,7 +28,7 @@ Each document is numbered `XX.YYY`:
 
 ---
 
-## 🧩 5G NR Layered Specification Mapping (with Full Names)
+##  5G NR Layered Specification Mapping (with Full Names)
 
 3GPP organizes its protocol stack by layers. Each layer has a defined function and corresponding specification.
 
@@ -43,21 +43,21 @@ Each document is numbered `XX.YYY`:
 
 ---
 
-## 🧪 How I Use These Specs in Real Projects
+##  How I Use These Specs in Real Projects
 
-### 🛰️ 5G Scheduling & Modem Protocol Optimization
+###  5G Scheduling & Modem Protocol Optimization
 - Referred to **TS 38.321 (MAC layer)** to implement a **Weighted Round Robin scheduler** in the `srsRAN` 5G stack.
 - Benchmarked performance across 500+ test cases and improved uplink fairness by ~25%.
 
-### 🔐 Jamming Attacks on LTE Stack
+###  Jamming Attacks on LTE Stack
 - Analyzed synchronization breakdowns under jamming using **TS 36.331 (RRC)**.
 - Verified HARQ behavior with **TS 36.321** during MAC-layer retransmission under RF stress.
 
-### 🧠 Batteryless Wireless Sensor Network Simulation
+###  Batteryless Wireless Sensor Network Simulation
 - Built a modular simulator aligning with **RLC and PDCP behaviors** from TS 38.322 and TS 38.323.
 - Handled packet segmentation/reassembly for energy-constrained nodes.
 
-### 🌐 Traffic & Packet Analysis with Wireshark
+###  Traffic & Packet Analysis with Wireshark
 - Used **TS 38.331** to decode RRC messages from packet captures.
 - Verified PDCP encryption and integrity against **TS 38.323** specs.
 
