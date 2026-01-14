@@ -65,14 +65,14 @@ Each document is numbered `XX.YYY`:
 
 ## 🔗 Helpful Resources
 
-- 📄 [3GPP Specs Archive](https://www.3gpp.org/ftp/Specs/)
-- 🔍 [DynaSpec Search Tool](https://www.3gpp.org/DynaReport)
-- 🧪 [srsRAN 5G Stack](https://github.com/srsran/srsRAN_5G)
-- 🖥️ [Wireshark Protocol Reference](https://www.wireshark.org/docs/dfref/)
+-  [3GPP Specs Archive](https://www.3gpp.org/ftp/Specs/)
+-  [DynaSpec Search Tool](https://www.3gpp.org/DynaReport)
+-  [srsRAN 5G Stack](https://github.com/srsran/srsRAN_5G)
+-  [Wireshark Protocol Reference](https://www.wireshark.org/docs/dfref/)
 
 ---
 
-## 🎯 About This Repo
+##  About This Repo
 
 This project demonstrates both theoretical understanding and practical application of 3GPP standards. It's a personal effort to bridge the gap between **spec interpretation** and **hands-on development** in modern wireless systems.
 
