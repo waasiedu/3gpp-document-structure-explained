@@ -1,4 +1,4 @@
-# 📡 Understanding 3GPP Document Structure
+#  Understanding 3GPP Document Structure
 
 This repository explains how to navigate and interpret **3GPP specifications**, particularly for **5G NR and LTE**, and shows how I apply these standards in real-world wireless systems projects.
 
@@ -63,7 +63,7 @@ Each document is numbered `XX.YYY`:
 
 ---
 
-## 🔗 Helpful Resources
+##  Helpful Resources
 
 -  [3GPP Specs Archive](https://www.3gpp.org/ftp/Specs/)
 -  [DynaSpec Search Tool](https://www.3gpp.org/DynaReport)
